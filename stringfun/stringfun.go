@@ -10,6 +10,7 @@ func main() {
 	fmt.Println(sample)
 
 	fmt.Println("Byte loop:")
+
 	for i := 0; i < len(sample); i++ {
 		fmt.Printf("%x ", sample[i])
 	}
