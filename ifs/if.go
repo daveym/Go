@@ -13,7 +13,7 @@ func main() {
 	// limit random to only within the scope if the if statement
 	if random := rand.Intn(10); random < 5 {
 		fmt.Println("your number is less than 5")
-	} else {
+	} else if random > 5 {
 		fmt.Println("your number is greater than 5")
 	}
 
