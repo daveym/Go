@@ -17,7 +17,7 @@ func main() {
 	}
 
 	// multidimensional, woooooo
-	c := [3][3]int{{0, 0, 0}, {0, 0, 0}}
+	c := [4][4]int{{0, 0, 0, 0}, {0, 0, 0, 0}}
 	fmt.Println(c)
 
 	c[0][0] = 1
