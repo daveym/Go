@@ -14,7 +14,6 @@ func main() {
 	if random := rand.Intn(10); random < 5 {
 		fmt.Println("your number is less than 5, awesome")
 	} else if random > 5 {
-		fmt.Println("your number is greater than 5, also awesome")
+		fmt.Println("your number is greater than 5")
 	}
-
 }
