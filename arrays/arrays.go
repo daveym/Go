@@ -20,4 +20,8 @@ func main() {
 	c := [3][3]int{{0, 0, 0}, {0, 0, 0}}
 	fmt.Println(c)
 
+	c[0][0] = 1
+	c[1][1] = 1
+	c[2][2] = 1
+	fmt.Println(c)
 }
