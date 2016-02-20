@@ -34,4 +34,7 @@ func main() {
 	// Init in one line
 	n := map[string]int{"foo": 1, "bar": 2}
 	fmt.Println("map:", n)
+
+	newmap = make(map[string]int)
+
 }
