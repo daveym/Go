@@ -1,0 +1,18 @@
+{
+    "env": {
+        "GOPATH": "/Users/davidmcg/Dropbox/Github/gocode/",
+        "PATH": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/davidmcg/Dropbox/Github/gocode//bin:/usr/local/go/bin:/Users/davidmcg/Dropbox/Github/gocode"
+    },
+    "fmt_cmd": ["goimports"],
+    "on_save": [{
+        "cmd": "gs9o_open", "args": {
+        "run": [
+            "sh",
+            "go build . errors && go test -i && go vet && golint . && go install ."
+        ],
+        "focus_view": false
+        }
+    }],
+    "autocomplete_closures": true,
+    "complete_builtins": true
+}
