@@ -1,0 +1,483 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"main",
+				"func main	func main {...} ʂ"
+			],
+			[
+				"map",
+				"mapvalue	bool ν"
+			],
+			[
+				"imp",
+				"import	import (...) ʂ"
+			],
+			[
+				"un",
+				"UnixNano	int64 ƒ"
+			],
+			[
+				"path",
+				"pathName	path ν"
+			],
+			[
+				"complex",
+				"complexVar	 ν"
+			],
+			[
+				"comp",
+				"complex128	built-in ʈ"
+			],
+			[
+				"str",
+				"string1	 ν"
+			],
+			[
+				"test",
+				"test2	 ν"
+			],
+			[
+				"pr",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"im",
+				"imag	 ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/closures/closure.go",
+			"settings":
+			{
+				"buffer_size": 281,
+				"line_ending": "Unix",
+				"name": "package main"
+			}
+		}
+	],
+	"build_system": "Packages/Golang Build/Go.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					""
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Install"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Cross-Compile (Interactive)"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Golang Build/Go.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 308.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"GoSublime: ",
+				"GoSublime: Usage & Tips"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"GoSublime:",
+				"GoSublime: Usage & Tips"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 165.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" install",
+			"no command for selector: insertSingleQuoteIgnoringSubstitution:",
+			"import urllib.request,os,hashlib; h =     '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src"
+	],
+	"file_history":
+	[
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/arrays/arrays.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/interfaces/interfaces.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/methods/methods.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/maps/maps.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/loops/loops.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/ifs/if.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/interfaces2/interfaces2.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/helloworld/hello.go",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/golang.sublime-settings",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/stringfun/stringfun.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/struct/struct.go",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/functions/functions.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/github.com/go-kit/kit/examples/stringsvc1/main.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/switch/switches.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/strings/stringfun.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/GoSublime.sublime-settings",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/result/result.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/slices/slices.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/packages/packages.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/variables/variables.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/result/Result.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/server/server.go",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/GoSublime/Default (OSX).sublime-keymap",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/GoSublime/osx-x64/log.txt",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/GoOracle/README.md",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/bin/helloworld",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/package/Result.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/helloworld/hello.go",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/GoSublime/README.md",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/davidmcg/Downloads/RetentionDisposalStandards.ods",
+		"/private/var/folders/09/qm0102f513j4dt02x49b8w2h16yh04/T/com.microsoft.Outlook/Outlook Temp/PSKC_PSK_t10x0.xml",
+		"/Users/davidmcg/Desktop/MOT.js",
+		"/Users/davidmcg/Desktop/1.13 Chat",
+		"/Users/davidmcg/GitHub/go/src/github.com/daveym/stringutil/reverse.go",
+		"/Users/davidmcg/GitHub/go/src/github.com/daveym/hello/hello.go",
+		"/Users/davidmcg/GitHub/com.packtpub.swift.essentials/README.md",
+		"/Users/davidmcg/Desktop/Interviews/Richa Dwivedi"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";",
+			"` TO 'moth_user'@'10.10.%'",
+			"` TO 'moth_user'@'10.10.%'       ",
+			";",
+			"http",
+			"http://",
+			"http:",
+			";"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"",
+			"\\n",
+			"/n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/closures/closure.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"auto_name": "package main",
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/helloworld":
+	{
+		"height": 167.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/package":
+	{
+		"height": 164.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/arrays":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/closures":
+	{
+		"height": 140.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/functions":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/github.com/go-kit/kit/examples/stringsvc1":
+	{
+		"height": 204.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/helloworld":
+	{
+		"height": 201.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/ifs":
+	{
+		"height": 200.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/interfaces":
+	{
+		"height": 164.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/interfaces2":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/loops":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/maps":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/methods":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/packages":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/result":
+	{
+		"height": 233.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/server":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/slices":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/stringfun":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/strings":
+	{
+		"height": 206.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/struct":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/switch":
+	{
+		"height": 184.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/variables":
+	{
+		"height": 98.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 98.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 223.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.golang_build":
+	{
+		"height": 114.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 86.0
+	},
+	"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"helloworld/hello.go"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
