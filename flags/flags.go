@@ -17,4 +17,6 @@ func main() {
 	fmt.Println("fork:", *boolPtr)
 	fmt.Println("svar:", svar)
 	fmt.Println("tail:", flag.Args())
+
+	// Execute by running ./command-line-flags -word=opt -numb=7 -fork -svar=flag
 }
