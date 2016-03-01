@@ -1,30 +1,23 @@
-// When using channels as function parameters, you can
-// specify if a channel is meant to only send or receive
-// values. This specificity increases the type-safety of
-// the program.
-
 package main
 
 import "fmt"
 
-// This `ping` function only accepts a channel for sending
-// values. It would be a compile-time error to try to
-// receive on this channel.
-func ping(pings chan<- string, msg string) {
-	pings <- msg
+func sendping(pingchannel chan<- string, msg string) {
+	pingchannel <- msg // Add the message to the ping channel
 }
 
-// The `pong` function accepts one channel for receives
-// (`pings`) and a second for sends (`pongs`).
-func pong(pings <-chan string, pongs chan<- string) {
-	msg := <-pings
-	pongs <- msg
+func recievepong(pingchannel <-chan string, pongchannel chan<- string) {
+	msg := <-pingchannel // take the message from ping channel and store it in msg
+	pongchannel <- msg   // move the message from one channel to the other.
 }
 
 func main() {
-	pings := make(chan string, 1)
-	pongs := make(chan string, 1)
-	ping(pings, "passed message")
-	pong(pings, pongs)
-	fmt.Println(<-pongs)
+	pingchannel := make(chan string, 1) // For sending
+	pongchannel := make(chan string, 1) // For recieving
+
+	sendping(pingchannel, "passed message")
+	recievepong(pingchannel, pongchannel)
+
+	fmt.Println(<-pongchannel)
+
 }
