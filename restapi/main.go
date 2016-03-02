@@ -4,23 +4,21 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/arschles/go-in-5-minutes/episode1/handlers"
-	"github.com/arschles/go-in-5-minutes/episode1/storage"
+	"github.com/gorilla/mux" // Trying Gorilla Mux
 )
+
+func YourHandler(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("Gorilla!\n"))
+}
 
 func main() {
 
-	db := storage.NewInMemoryDB()
-
-	mux := http.NewServeMux()
-
-	mux.Handle("/get", handlers.GetKey(db))
-
-	mux.Handle("/set", handlers.PutKey(db))
+	r := mux.NewRouter()
+	r.HandleFunc("/", YourHandler)
 
 	log.Printf("Serving on port 8080")
 
-	err := http.ListenAndServe(":8080", mux)
+	err := http.ListenAndServe(":8080", r)
 
 	log.Fatal(err)
 
